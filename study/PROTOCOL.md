@@ -24,11 +24,11 @@ Between subjects: each person shops once, in one condition.
 
 **Assignment:** alternate in blocks so the groups stay equal and aren't sorted by who came first. Prepare the list before the first session: P01 B, P02 C, P03 C, P04 B, P05 B, P06 C, … (draw each block of two by coin toss).
 
-**Language:** English shop, since CODE participants are mixed. Note the language in the log (`lang`).
+**Language:** English shop, since participants speak different first languages. Note the language in the log (`lang`).
 
 ## 3. Participants
 
-- 15–20 adults (18+), recruited at CODE: Slack, flyers, asking in person.
+- 15–20 adults (18+), recruited at the university: Slack, flyers, asking in person.
 - No one who has seen the test shop, the extension or this project, since that would give it away.
 - No payment. Optional: a snack or coffee. Taking part, or stopping, has no effect on grades or anything else.
 
