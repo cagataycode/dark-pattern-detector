@@ -1,0 +1,12 @@
+[
+  { "country": "DE", "name": "OTTO", "url": "https://www.otto.de/" },
+  { "country": "DE", "name": "Zalando", "url": "https://www.zalando.de/" },
+  { "country": "DE", "name": "MediaMarkt", "url": "https://www.mediamarkt.de/" },
+  { "country": "DE", "name": "ABOUT YOU", "url": "https://www.aboutyou.de/" },
+  { "country": "DE", "name": "Lidl", "url": "https://www.lidl.de/" },
+  { "country": "DE", "name": "home24", "url": "https://www.home24.de/" },
+  { "country": "DE", "name": "Westwing", "url": "https://www.westwing.de/" },
+  { "country": "DE", "name": "limango", "url": "https://www.limango.de/" },
+  { "country": "DE", "name": "notebooksbilliger", "url": "https://www.notebooksbilliger.de/" },
+  { "country": "DE", "name": "Temu", "url": "https://www.temu.com/de" }
+]

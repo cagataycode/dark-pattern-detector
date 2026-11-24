@@ -1,0 +1,4164 @@
+{
+  "repeats": 3,
+  "summary": {
+    "en": {
+      "urgency": {
+        "tp": 36,
+        "fp": 0,
+        "fn": 0,
+        "high": 30
+      },
+      "scarcity": {
+        "tp": 56,
+        "fp": 0,
+        "fn": 0,
+        "high": 13
+      },
+      "preticked": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "high": 12
+      },
+      "drip": {
+        "tp": 24,
+        "fp": 0,
+        "fn": 0,
+        "high": 24
+      },
+      "confirmshaming": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "high": 0
+      },
+      "fakeref": {
+        "tp": 78,
+        "fp": 0,
+        "fn": 0,
+        "high": 72
+      }
+    },
+    "de": {
+      "urgency": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 36,
+        "high": 0
+      },
+      "scarcity": {
+        "tp": 40,
+        "fp": 36,
+        "fn": 6,
+        "high": 8
+      },
+      "preticked": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "high": 12
+      },
+      "drip": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 24,
+        "high": 0
+      },
+      "confirmshaming": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "high": 0
+      },
+      "fakeref": {
+        "tp": 78,
+        "fp": 0,
+        "fn": 0,
+        "high": 72
+      }
+    }
+  },
+  "runs": [
+    {
+      "lang": "en",
+      "config": "all off",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "all off",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "all off",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "all on",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "all on",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "all on",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "urgency only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "urgency only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "urgency only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [
+            {
+              "pattern": "urgency",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "scarcity only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "scarcity only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "scarcity only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "preticked only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "preticked only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "preticked only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "drip only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "drip only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "drip only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            },
+            {
+              "pattern": "drip",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "confirmshaming only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "confirmshaming only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "confirmshaming only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "fakeref only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "fakeref only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "config": "fakeref only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "all off",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "all off",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "all off",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "all on",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek."
+            }
+          ]
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            },
+            {
+              "pattern": "scarcity",
+              "text": "🔥 16 Personen haben diesen Artikel in der letzten Stunde an"
+            }
+          ]
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            }
+          ]
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            },
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            },
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "all on",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek."
+            }
+          ]
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            },
+            {
+              "pattern": "scarcity",
+              "text": "🔥 8 Personen haben diesen Artikel in der letzten Stunde ang"
+            }
+          ]
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            }
+          ]
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            },
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            },
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "all on",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek."
+            }
+          ]
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            },
+            {
+              "pattern": "scarcity",
+              "text": "🔥 16 Personen haben diesen Artikel in der letzten Stunde an"
+            }
+          ]
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            }
+          ]
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            },
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            },
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "urgency only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek."
+            }
+          ]
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            }
+          ]
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            }
+          ]
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "urgency only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek."
+            }
+          ]
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            }
+          ]
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            }
+          ]
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "urgency only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 55 Sek."
+            }
+          ]
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            }
+          ]
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 58 Sek."
+            }
+          ]
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [
+            {
+              "pattern": "scarcity",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.",
+              "evidence": "\"⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek.\" is a claim you can't check. Reload l"
+            }
+          ],
+          "fn": [
+            {
+              "pattern": "urgency",
+              "text": "⚡ Deal des Tages – nur noch 00 Std. 09 Min. 59 Sek."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "scarcity only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": [
+            {
+              "pattern": "scarcity",
+              "text": "🔥 18 Personen haben diesen Artikel in der letzten Stunde an"
+            }
+          ]
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "scarcity only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": [
+            {
+              "pattern": "scarcity",
+              "text": "🔥 18 Personen haben diesen Artikel in der letzten Stunde an"
+            }
+          ]
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "scarcity only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            },
+            {
+              "pattern": "scarcity",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "scarcity",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": [
+            {
+              "pattern": "scarcity",
+              "text": "🔥 21 Personen haben diesen Artikel in der letzten Stunde an"
+            }
+          ]
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "preticked only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "preticked only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "preticked only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            },
+            {
+              "pattern": "preticked",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "drip only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": [
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": [
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "drip only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": [
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": [
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "drip only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": [
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": [
+            {
+              "pattern": "drip",
+              "text": "Servicepauschale3,49 €"
+            },
+            {
+              "pattern": "drip",
+              "text": "Zahlungsgebühr1,99 €"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "confirmshaming only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "confirmshaming only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "confirmshaming only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "confirmshaming",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "fakeref only",
+      "repeat": 0,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "fakeref only",
+      "repeat": 1,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    },
+    {
+      "lang": "de",
+      "config": "fakeref only",
+      "repeat": 2,
+      "steps": [
+        {
+          "step": "home + popup",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "home, reloaded",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            },
+            {
+              "pattern": "fakeref",
+              "confidence": "high"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "product",
+          "tp": [
+            {
+              "pattern": "fakeref",
+              "confidence": "medium"
+            }
+          ],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "cart",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        },
+        {
+          "step": "checkout, reloaded",
+          "tp": [],
+          "fp": [],
+          "fn": []
+        }
+      ]
+    }
+  ]
+}

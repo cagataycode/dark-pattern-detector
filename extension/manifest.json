@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Dark Pattern Detector",
+  "version": "0.1.0",
+  "description": "Flags manipulative design while you shop and explains which bias each pattern exploits.",
+  "permissions": ["storage"],
+  "action": {
+    "default_title": "Dark Pattern Detector",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["patterns.js", "detect.js", "ui.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

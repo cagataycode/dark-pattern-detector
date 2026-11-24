@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test shop admin</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .admin label { display: flex; gap: 10px; padding: 6px 0; align-items: center; }
+    .admin code { background: #efede8; padding: 2px 6px; border-radius: 4px; }
+    #link { width: 100%; padding: 10px; font-family: ui-monospace, monospace; font-size: 13px; border: 1px solid #cfcbc0; border-radius: 8px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #efede8; vertical-align: top; }
+    td.data { font-family: ui-monospace, monospace; font-size: 12px; color: #555; }
+    .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 12px; }
+    .panel + .panel { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header class="top"><span class="logo">Test shop admin</span><nav><a href="index.html">Open shop</a></nav></header>
+  <main class="admin">
+    <div class="panel">
+      <h2>Session setup</h2>
+      <div id="patterns"></div>
+      <div class="row">
+        <button class="btn secondary" id="all" type="button">All on</button>
+        <button class="btn secondary" id="none" type="button">All off</button>
+        <label>Language <select id="lang" style="padding:8px;border:1px solid #cfcbc0;border-radius:6px"><option value="en">English</option><option value="de">Deutsch</option></select></label>
+        <label>Session id <input id="sid" placeholder="e.g. P07" style="padding:8px;border:1px solid #cfcbc0;border-radius:6px"></label>
+      </div>
+      <p class="muted">Participant link (opening it resets the cart and starts a new session in that tab):</p>
+      <input id="link" readonly>
+      <div class="row">
+        <a class="btn" id="open" target="_blank" rel="noopener">Open link in new tab</a>
+        <button class="btn secondary" id="copy" type="button">Copy link</button>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Event log <span class="muted" id="count"></span></h2>
+      <p class="muted">Stored in this browser only (localStorage).</p>
+      <div class="row">
+        <button class="btn" id="export" type="button">Export JSON</button>
+        <button class="btn secondary" id="clear" type="button">Clear log</button>
+      </div>
+      <div style="overflow-x:auto;margin-top:16px"><table id="log"></table></div>
+    </div>
+  </main>
+  <script src="common.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

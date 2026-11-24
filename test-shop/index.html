@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumen Market</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="urgency" hidden></div>
+  <header class="top">
+    <a class="logo" href="#/">Lumen Market</a>
+    <nav>
+      <a href="#/">Shop</a>
+      <a href="#/cart" id="cart-link">Cart (0)</a>
+    </nav>
+  </header>
+  <main id="view"></main>
+  <footer class="foot">Research prototype. No real products, payments or data collection.</footer>
+
+  <div id="popup" class="overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+      <h2 id="popup-title">Get 10% off your first order</h2>
+      <p>Join our newsletter and the discount is applied to your cart right away.</p>
+      <form id="popup-form">
+        <input type="email" placeholder="you@example.com" aria-label="Email address" required>
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+      <button id="popup-decline" class="link-btn" type="button"></button>
+    </div>
+  </div>
+
+  <script src="common.js"></script>
+  <script src="shop.js"></script>
+</body>
+</html>
